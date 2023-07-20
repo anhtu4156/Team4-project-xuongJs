@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat-bold', sans-serif;
+}
+
+.header ul{
+    height: 100%;
+}
+
+.header li {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);   
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 104px;
+    height: 66px;
+}
+
+.box-header .left ul li:first-child {
+    margin-right: 32px;
+}
+
+.box-header .left img {
+    width: 110;
+    height: 36px;
+}
+
+.box-header .left {
+    display: flex;
+    width: 640px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 288px;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+.box-header .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    height: 100%;
+}
+
+
+.right .account .box-img {
+    -webkit-mask-image: url(../img/Ellipse\ 28.svg);
+    -webkit-mask-repeat: no-repeat;
+
+}
+
+.box-img img {
+    width: 50px;
+    height: 50px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.box-img {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header li:hover{
+    border-bottom: 3px solid blue;
+}
